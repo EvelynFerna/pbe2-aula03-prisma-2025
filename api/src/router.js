@@ -8,7 +8,7 @@ const Telefone = require('./controllers/telefone');
 
 router.get('/',(req,res)=>{
     res.json({titulo:'SNOOPY PetShop API'});
-    });
+    });    
 
     router.post('/clientes',Cliente.create);
     router.get('/clientes',Cliente.read);
